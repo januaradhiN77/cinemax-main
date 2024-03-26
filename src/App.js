@@ -62,7 +62,7 @@ const App = () => {
 
     return (
         <div className="app">
-            <h1>CineFlix</h1>
+            <h1>Cinemax</h1>
             <div className="search">
                 <input 
                     placeholder="Search movies..." 
@@ -88,7 +88,7 @@ const App = () => {
                 </div>
             ) : (
                 <div className="empty">
-                    <h2>No movies found</h2>
+                    <h2>Tidak ada data yang tersedia.</h2>
                 </div>
             )}
             <MovieDetailsModal 
